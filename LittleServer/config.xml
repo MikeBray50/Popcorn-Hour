@@ -6,7 +6,6 @@
   <dir></dir>
   <!-- Set commands including (optional) prefix and suffix -->
   <commands prefix="" suffix="">
-    <!-- prefix="nohump " suffix=" &amp;"> --> <!-- TODO add command html file (a goback script) -->
     <!-- Command: (unique id), run path and allow args (True/False) -->
     <command id="shuffle" run="python /share/Scripts/ShuffleThis.py" args="true" />
   </commands>
