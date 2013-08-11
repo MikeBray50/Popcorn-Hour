@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <!-- Set server port -->
+  <port>7070</port>
+  <!-- html files directory, empty for current directory -->
+  <dir></dir>
+  <!-- Set commands including (optional) prefix and suffix -->
+  <commands prefix="" suffix="">
+    <!-- prefix="nohump " suffix=" &amp;"> --> <!-- TODO add command html file (a goback script) -->
+    <!-- Command: (unique id), run path and allow args (True/False) -->
+    <command id="shuffle" run="python /share/Scripts/ShuffleThis.py" args="true" />
+  </commands>
+</configuration>
